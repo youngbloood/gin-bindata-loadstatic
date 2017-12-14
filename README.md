@@ -1,9 +1,15 @@
 # gin-bindata-loadstatic
 gin use go-bindata load static source
-## useage
-use [go-bindata](https://github.com/jteeuwen/go-bindata) generate assets.go
 
-use [gin web framework](https://github.com/gin-gonic/gin) load assets resource
+## prepare
+use [go-bindata](https://github.com/jteeuwen/go-bindata) to generate assets.go
+## purpose
+
+
+in [gin web framework](https://github.com/gin-gonic/gin)   project then we can load assets resource from assets.go
+## useage
+
+> go get github.com/youngbloood/gin-bindata/loadstatic
 
 in main.go
 ```
