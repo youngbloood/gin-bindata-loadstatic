@@ -20,7 +20,7 @@ import (
 )
 
 func init(){
-    engin:=gin.Default()
+    engine := gin.Default()
     static.NewAssetsFS(engine, assets.AssetDir, assets.Asset, "").LoadStatic()
 }
 ```
